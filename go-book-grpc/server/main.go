@@ -1,8 +1,8 @@
 package main
 
 import (
-	book "Demo-project/go-book-grpc"
 	"context"
+	fws "go-book-grpc/api"
 	"google.golang.org/grpc"
 	"log"
 	"net"
@@ -15,18 +15,19 @@ import (
 //服务器用于实现BookService
 type BookServer struct{}
 //函数关键字（对象）函数名（默认是传参，客户端传入的参数）（服务端返回的参数，错误返回值）
-func(s *BookServer)GetBookInfo(ctx context.Context,in *book.BookInfoParams)(*book.BookInfo,error){
+func(s *BookServer)GetBookInfo(ctx context.Context,in *fws.BookInfoParams)(*fws.BookInfo,error){
 	//请求详情时返回书籍信息
-	b:=new(book.BookInfo)
+	b:=new(fws.BookInfo)
+
 	b.BookId=in.BookId
 	b.BookName="Go语言核心编程"
 	return b,nil
 }
-func(s *BookServer)GetBookList(ctx context.Context,in *book.BookListParams)(*book.BookList,error){
+func(s *BookServer)GetBookList(ctx context.Context,in *fws.BookListParams)(*fws.BookList,error){
 	//请求列表时返回书籍列表
-	bl:=new(book.BookList)
-	bl.BookList=append(bl.BookList,&book.BookInfo{BookId: 1,BookName: "Go语言核心编程"})
-	bl.BookList=append(bl.BookList,&book.BookInfo{BookId: 2,BookName: "java从入门到精通"})
+	bl:=new(fws.BookList)
+	bl.BookList=append(bl.BookList,&fws.BookInfo{BookId: 1,BookName: "Go语言核心编程"})
+	bl.BookList=append(bl.BookList,&fws.BookInfo{BookId: 2,BookName: "java从入门到精通"})
 	return bl,nil
 }
 
@@ -44,7 +45,7 @@ func main(){
 	//创建grpc服务
 	grpcServer:=grpc.NewServer()
 	//服务端注册个对象，注册bookServer
-	book.RegisterBookServiceServer(grpcServer,bookServer)
+	fws.RegisterBookServiceServer(grpcServer,bookServer)
 	//启动服务
 	grpcServer.Serve(lis)
 }

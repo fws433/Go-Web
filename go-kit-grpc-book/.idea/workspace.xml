@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d60be3f9-efa7-488a-ba60-b043c7a9c83f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../go-redis/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mygrpc/client/client.go" beforeDir="false" afterPath="$PROJECT_DIR$/../Mygrpc/client/client.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mygrpc/myproto.pb.go" beforeDir="false" afterPath="$PROJECT_DIR$/../Mygrpc/api/myproto.pb.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mygrpc/myproto.proto" beforeDir="false" afterPath="$PROJECT_DIR$/../Mygrpc/api/myproto.proto" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mygrpc/server/server.go" beforeDir="false" afterPath="$PROJECT_DIR$/../Mygrpc/server/server.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../go-book-grpc/book.pb.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../go-book-grpc/book.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../go-book-grpc/client/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/../go-book-grpc/client/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../go-book-grpc/server/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/../go-book-grpc/server/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book.pb.go" beforeDir="false" afterPath="$PROJECT_DIR$/../go-book-grpc/api/book.pb.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book.proto" beforeDir="false" afterPath="$PROJECT_DIR$/../go-book-grpc/api/book.proto" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="GOROOT" path="/usr/local/Cellar/go/1.14.3/libexec" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GoLibraries">
+    <option name="indexEntireGoPath" value="false" />
+  </component>
+  <component name="ProjectId" id="1ckmmhmF1fWgGQRVK7hPYNQ5FIP" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="go.sdk.automatically.set" value="true" />
+    <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
+    <property name="go.vendoring.notification.had.been.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VgoProject">
+    <integration-enabled>true</integration-enabled>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1777" y="91" key="SettingsEditor" timestamp="1591081368279">
+      <screen x="1440" y="0" width="1920" height="1080" />
+    </state>
+    <state x="1777" y="91" key="SettingsEditor/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1591081368279" />
+  </component>
+</project>

@@ -1,10 +1,10 @@
 package main
 
 import (
-	pb "Demo-project/Mygrpc"
 	"fmt"
 	"golang.org/x/net/context"
 	"google.golang.org/grpc"
+	"mygrpc/api"
 )
 
 func main(){
@@ -14,16 +14,16 @@ func main(){
 		fmt.Println("网络异常",err)
 	}
 	defer conn.Close()
-	//获得grpc句柄
-	c:=pb.NewHelloserverClient(conn)
+	//获得grpc句柄存根4¥
+	c:= api.NewHelloserverClient(conn)
 	//通过句柄调用函数
-	re,err:=c.Sayhello(context.Background(),&pb.HelloReq{Name:"熊猫"})
+	re,err:=c.Sayhello(context.Background(),&api.HelloReq{Name:"五哥"})
 	if err!=nil{
 		fmt.Println("sayHello服务调用失败")
 	}
 	fmt.Println("调用sayHello的返回：",re.Msg)
 
-	rel,err:=c.Sayname(context.Background(),&pb.NameRep{Name: "托马斯"})
+	rel,err:=c.Sayname(context.Background(),&api.NameRep{Name: "二爷"})
 	if err!=nil{
 		fmt.Println("sayName服务调用失败")
 	}

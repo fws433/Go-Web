@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="395d44de-5f4f-43e0-9392-c9ed90baced2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/bibao/bibao1.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bibao/bibao2.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bibao/bibao3.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bibao/bibao4.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bibao/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go-gin/demo/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go-gin/demo1/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go-gin/demo2/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go-redis/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go-singleflight/singlwflight1.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/json/intzhuanjson.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/json/mapzhuanjson.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/json/slicezhuanjson.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/json/structzhuanjson.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mygrpc/client/client.go" beforeDir="false" afterPath="$PROJECT_DIR$/Mygrpc/client/client.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mygrpc/myproto.pb.go" beforeDir="false" afterPath="$PROJECT_DIR$/Mygrpc/api/myproto.pb.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mygrpc/myproto.proto" beforeDir="false" afterPath="$PROJECT_DIR$/Mygrpc/api/myproto.proto" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mygrpc/server/server.go" beforeDir="false" afterPath="$PROJECT_DIR$/Mygrpc/server/server.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go-book-grpc/book.pb.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/go-book-grpc/book.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/go-book-grpc/client/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/go-book-grpc/client/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go-book-grpc/server/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/go-book-grpc/server/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go-kit-grpc-book/book.pb.go" beforeDir="false" afterPath="$PROJECT_DIR$/go-book-grpc/api/book.pb.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go-kit-grpc-book/book.proto" beforeDir="false" afterPath="$PROJECT_DIR$/go-book-grpc/api/book.proto" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Go File" />
+      </list>
+    </option>
+  </component>
+  <component name="GOROOT" path="/usr/local/Cellar/go/1.14.3/libexec" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GoLibraries">
+    <option name="indexEntireGoPath" value="false" />
+  </component>
+  <component name="ProjectId" id="1ckKNpPuSiXjnn3LeKpMKr8DRO6" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultGoTemplateProperty" value="Go File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="configurable.Global.GOPATH.is.expanded" value="true" />
+    <property name="configurable.Module.GOPATH.is.expanded" value="false" />
+    <property name="configurable.Project.GOPATH.is.expanded" value="true" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="go.sdk.automatically.set" value="true" />
+    <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
+    <property name="go.vendoring.notification.had.been.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="go.vgo" />
+  </component>
+  <component name="RunManager" selected="Go Build.go build bibao4.go">
+    <configuration name="go build bibao1.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="Demo-project" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/bibao/bibao1.go" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build bibao2.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="Demo-project" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/bibao/bibao2.go" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build bibao3.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="Demo-project" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/bibao/bibao3.go" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build bibao4.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="Demo-project" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/bibao/bibao4.go" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="Demo-project" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/bibao/main.go" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Go Build.go build bibao4.go" />
+        <item itemvalue="Go Build.go build bibao3.go" />
+        <item itemvalue="Go Build.go build main.go" />
+        <item itemvalue="Go Build.go build bibao1.go" />
+        <item itemvalue="Go Build.go build bibao2.go" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VgoProject">
+    <integration-enabled>true</integration-enabled>
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1388" height="176" key="GridCell.Tab.0.bottom" timestamp="1592379541460">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1388" height="176" key="GridCell.Tab.0.bottom/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1592379541460" />
+    <state width="1388" height="176" key="GridCell.Tab.0.bottom/0.23.1440.877/1440.23.1920.983@0.23.1440.877" timestamp="1592311759564" />
+    <state width="1388" height="176" key="GridCell.Tab.0.center" timestamp="1592379541458">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1388" height="176" key="GridCell.Tab.0.center/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1592379541458" />
+    <state width="1388" height="176" key="GridCell.Tab.0.center/0.23.1440.877/1440.23.1920.983@0.23.1440.877" timestamp="1592311759562" />
+    <state width="1388" height="176" key="GridCell.Tab.0.left" timestamp="1592379541456">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1388" height="176" key="GridCell.Tab.0.left/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1592379541456" />
+    <state width="1388" height="176" key="GridCell.Tab.0.left/0.23.1440.877/1440.23.1920.983@0.23.1440.877" timestamp="1592311759560" />
+    <state width="1388" height="176" key="GridCell.Tab.0.right" timestamp="1592379541459">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1388" height="176" key="GridCell.Tab.0.right/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1592379541459" />
+    <state width="1388" height="176" key="GridCell.Tab.0.right/0.23.1440.877/1440.23.1920.983@0.23.1440.877" timestamp="1592311759563" />
+    <state x="194" y="23" key="SettingsEditor" timestamp="1591874036535">
+      <screen x="0" y="23" width="1440" height="798" />
+    </state>
+    <state x="194" y="23" key="SettingsEditor/0.23.1440.798/1440.23.1920.1057@0.23.1440.798" timestamp="1591874036535" />
+    <state x="1777" y="66" key="SettingsEditor/0.23.1440.798/1440.23.1920.1057@1440.23.1920.1057" timestamp="1591873959571" />
+    <state x="1777" y="63" key="SettingsEditor/0.23.1440.877/1440.23.1920.977@1440.23.1920.977" timestamp="1591067599487" />
+  </component>
+</project>
