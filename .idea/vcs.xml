@@ -2,5 +2,9 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Golang" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/SecKill" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/douban-movie" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/groupcache" vcs="Git" />
   </component>
 </project>

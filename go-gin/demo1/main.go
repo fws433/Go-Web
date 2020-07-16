@@ -1,5 +1,7 @@
 package main
+
 import (
+	"fmt"
 	"net/http"
 
 	"github.com/gin-gonic/gin"
@@ -8,9 +10,13 @@ import (
 // 处理带参数的path-GET
 func getParameter(c *gin.Context) {
 	// 回复一个200 OK，获取传入的参数
-	nickname := c.Param("nickname")
-	passwd := c.Param("passwd")
-	c.String(http.StatusOK, "参数:%s %s  get parameter OK", nickname, passwd)
+	//nickname := c.Param("nickname")
+	//passwd := c.Param("passwd")
+	//c.String(http.StatusOK, "参数:%s %s  get parameter OK", nickname, passwd)
+	nickname:= c.DefaultQuery("nickname","nickname")
+	canshu:=nickname
+	fmt.Println(canshu)
+
 }
 
 // 处理带参数的path-POST
@@ -32,7 +38,7 @@ func optionalParameter(c *gin.Context) {
 func main() {
 	router := gin.Default()
 	// 注意':'必须要匹配,'*'选择匹配,即存在就匹配,否则可以不考虑
-	router.GET("/appGet/:nickname/:passwd", getParameter)
+	router.GET("/appGet", getParameter)
 	router.POST("/appPost/:nickname/:passwd", postParameter)
 	router.GET("/optional/:nickname/*passwd", optionalParameter)
 

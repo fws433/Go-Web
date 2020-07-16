@@ -20,30 +20,31 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="395d44de-5f4f-43e0-9392-c9ed90baced2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/bibao/bibao1.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bibao/bibao2.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bibao/bibao3.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bibao/bibao4.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bibao/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/go-gin/demo/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/go-gin/demo1/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/go-gin/demo2/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/go-redis/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/go-singleflight/singlwflight1.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/json/intzhuanjson.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/json/mapzhuanjson.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/json/slicezhuanjson.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/json/structzhuanjson.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mygrpc/client/client.go" beforeDir="false" afterPath="$PROJECT_DIR$/Mygrpc/client/client.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mygrpc/myproto.pb.go" beforeDir="false" afterPath="$PROJECT_DIR$/Mygrpc/api/myproto.pb.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mygrpc/myproto.proto" beforeDir="false" afterPath="$PROJECT_DIR$/Mygrpc/api/myproto.proto" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mygrpc/server/server.go" beforeDir="false" afterPath="$PROJECT_DIR$/Mygrpc/server/server.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go-book-grpc/book.pb.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/go-book-grpc/book.proto" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/go-book-grpc/client/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/go-book-grpc/client/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go-book-grpc/server/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/go-book-grpc/server/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go-kit-grpc-book/book.pb.go" beforeDir="false" afterPath="$PROJECT_DIR$/go-book-grpc/api/book.pb.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go-kit-grpc-book/book.proto" beforeDir="false" afterPath="$PROJECT_DIR$/go-book-grpc/api/book.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go-mysql/delete1.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go-mysql/insert1.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go-mysql/select1.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go-mysql/select2.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go-mysql/shiwu1.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go-mysql/update1.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gorm/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gorm/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gorm/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gorm/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gorm/go.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gorm/lianjieshujuku.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hellomock/company.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hellomock/company_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hellomock/hellomock.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hellomock/person.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/paqiong/paqiong1.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/paqiong/paqiong2.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/paqiong/paqiong3.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Golang/secKill/admin/routers/router.go" beforeDir="false" afterPath="$PROJECT_DIR$/Golang/secKill/admin/routers/router.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/douban-movie/model/model.go" beforeDir="false" afterPath="$PROJECT_DIR$/douban-movie/model/model.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go-gin/demo1/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/go-gin/demo1/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/groupcache/groupcache.go" beforeDir="false" afterPath="$PROJECT_DIR$/groupcache/groupcache.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +66,7 @@
     <option name="indexEntireGoPath" value="false" />
   </component>
   <component name="ProjectId" id="1ckKNpPuSiXjnn3LeKpMKr8DRO6" />
-  <component name="ProjectLevelVcsManager">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
@@ -86,6 +87,11 @@
     <property name="go.vendoring.notification.had.been.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="go.vgo" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
   </component>
   <component name="RunManager" selected="Go Build.go build bibao4.go">
     <configuration name="go build bibao1.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
